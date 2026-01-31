@@ -1,5 +1,5 @@
-import React, { useState, useMemo, Suspense } from 'react';
-import { Canvas, useLoader } from '@react-three/fiber';
+import React, { Suspense } from 'react';
+import { Canvas } from '@react-three/fiber';
 import { Stage, OrbitControls, Decal } from '@react-three/drei';
 import * as THREE from 'this-should-be-three-star'; // Wait, let me fix the import
 import * as THREE_LIB from 'three';
